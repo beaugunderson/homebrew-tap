@@ -5,13 +5,13 @@
 class Obliscence < Formula
   desc "Archive and search Claude Code conversations"
   homepage "https://github.com/beaugunderson/obliscence"
-  version "0.4.0"
+  version "0.5.0"
   license "MIT"
   depends_on :macos
 
   if Hardware::CPU.arm?
-    url "https://github.com/beaugunderson/obliscence/releases/download/v0.4.0/obliscence_0.4.0_darwin_arm64.tar.gz"
-    sha256 "5ae7af025ddb3d5f48ba9cf337e43b9223b8f6a17599f38c2633f1e682820cab"
+    url "https://github.com/beaugunderson/obliscence/releases/download/v0.5.0/obliscence_0.5.0_darwin_arm64.tar.gz"
+    sha256 "05af7e1d6eebaf0eeb339c96fffcc12a53756448561d8418072e7808f5b9d660"
 
     define_method(:install) do
       bin.install "obliscence"
