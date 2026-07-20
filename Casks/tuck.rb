@@ -1,6 +1,6 @@
 cask "tuck" do
-  version "0.1.0"
-  sha256 "153d0b6e2f0434ab216a364a7033042c6088a9f6544b08af8c53d97e5e7019fe"
+  version "0.1.1"
+  sha256 "1451ff9854697fae12e0a7a151cb46f1d39ffb60623999b5786260af6a14fe9f"
 
   url "https://github.com/beaugunderson/tuck/releases/download/v#{version}/Tuck-#{version}.zip"
   name "Tuck"
