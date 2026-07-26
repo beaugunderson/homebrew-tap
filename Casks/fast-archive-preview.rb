@@ -12,7 +12,7 @@ cask "fast-archive-preview" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :sequoia"
+  depends_on macos: :sequoia
 
   app "Fast Archive Preview.app"
 
