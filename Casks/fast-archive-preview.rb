@@ -1,6 +1,6 @@
 cask "fast-archive-preview" do
   version "1.0.0"
-  sha256 "2cc8532b0f633eba03edfc02cfd0dbfca64bc3689ce9d7b005caccb84ec08863"
+  sha256 "8b84cf6e28c3f7ea412a099a6909f7e6d9346cbf3e077fcf83f29c6313e190e9"
 
   url "https://github.com/beaugunderson/fast-archive-preview/releases/download/v#{version}/FastArchivePreview-#{version}.dmg"
   name "Fast Archive Preview"
