@@ -1,6 +1,6 @@
 cask "tuck" do
-  version "0.1.2"
-  sha256 "1db78c2580fc0100df5098289a40d725096a64d5988d0ae6af9bd09579b7ec96"
+  version "0.1.3"
+  sha256 "9a112ce05a088cd3b9d1ca5e3d606fbd6e69c1e07b0d44f5778b07ee29a81432"
 
   url "https://github.com/beaugunderson/tuck/releases/download/v#{version}/Tuck-#{version}.zip"
   name "Tuck"
@@ -12,7 +12,7 @@ cask "tuck" do
     strategy :github_latest
   end
 
-  depends_on macos: :ventura
+  depends_on macos: :sequoia
 
   app "Tuck.app"
 
